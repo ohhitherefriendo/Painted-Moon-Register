@@ -1,0 +1,396 @@
+*/
+
+const Menu = [
+    {
+        name: 'Lucky Bento',
+        uid: 'luckybento',
+        price: 500,
+        display: true,
+        items: 'Omurice, Onigiri, Meowcaroons, UwU-Pop',
+        itemType: 'combo'
+    },
+    {
+        name: '9 Lives',
+        uid: '9lives',
+        price: 300,
+        display: true,
+        image: 'images/items/9LivesCombo.png',
+        items: 'UwU Bowl, Dumplings, Flan, Strawberry Milk',
+        itemType: 'combo'
+    },
+    {
+        name: 'Cat Burglar',
+        uid: 'catburglar',
+        price: 300,
+        display: true,
+        image: 'images/items/CatBurglarCombo.png',
+        items: 'Chicken Cat-Su, Miso Soup, Taiyaki, Boba Tea',
+        itemType: 'combo'
+    },    
+    {
+        name: 'Pawcakes Meal',
+        uid: 'pawcakesmeal',
+        price: 150,
+        display: true,
+        image: 'images/items/pawcakesmeal.png',
+        items: 'Pawcakes, Sakura Tea, Cupcat',
+        itemType: 'combo'
+    },
+    {
+        name: 'Kitty Meal',
+        uid: 'kittymeal',
+        price: 75,
+        display: true,
+        image: 'images/items/kittymeal.png',
+        items: 'Cupcat, Boba Tea',
+        itemType: 'combo'
+    },
+    {
+        name: 'Pawliday Meal',
+        uid: 'pawlidaymeal',
+        price: 500,
+        display: true,
+        image: 'images/items/promo/pawlidaymeal.png',
+        items: 'Holiday Pawffles, Meowced Pie, Santas Cookies, Hot Choco-Cat',
+        itemType: 'combo'
+    },
+    {
+        name: 'Omurice',
+        uid: 'omurice',
+        price: 300,
+        display: true,
+        image: 'images/items/omurice.png',
+        items: '',
+        itemType: 'main'
+    },
+    {
+        name: 'UwU Bowl',
+        uid: 'uwubowl',
+        price: 200,
+        display: true,
+        image: 'images/items/uwubowl.png',
+        items: '',
+        itemType: 'main'
+    },
+    {
+        name: 'Chicken Cat-Su',
+        uid: 'chickencatsu',
+        price: 200,
+        display: true,
+        image: 'images/items/chickencatsu.png',
+        items: '',
+        itemType: 'main'
+    },
+    {
+        name: 'Pawcakes',
+        uid: 'pawcakes',
+        price: 100,
+        display: true,
+        image: 'images/items/pawcake.png',
+        items: '',
+        itemType: 'main'
+    },
+    {
+        name: 'Onigiri',
+        uid: 'onigiri',
+        price: 100,
+        display: true,
+        image: 'images/items/onigiri.png',
+        items: '',
+        itemType: 'side'
+    },
+    {
+        name: 'Dumplings',
+        uid: 'dumplings',
+        price: 50,
+        display: true,
+        image: 'images/items/dumplings.png',
+        items: '',
+        itemType: 'side'
+    },
+    {
+        name: 'Miso Soup',
+        uid: 'misosoup',
+        price: 50,
+        display: true,
+        image: 'images/items/misosoup.png',
+        items: '',
+        itemType: 'side'
+    },    
+    {
+        name: 'Meow-caroons',
+        uid: 'mewocaroons',
+        price: 100,
+        display: true,
+        image: 'images/items/meowcaroons.png',
+        items: '',
+        itemType: 'dessert'
+    },
+    {
+        name: 'Flan',
+        uid: 'flan',
+        price: 50,
+        display: true,
+        image: 'images/items/flan.png',
+        items: '',
+        itemType: 'dessert'
+    },
+    {
+        name: 'Taiyaki',
+        uid: 'taiyaki',
+        price: 50,
+        display: true,
+        image: 'images/items/taiyaki.png',
+        items: '',
+        itemType: 'dessert'
+    },
+    {
+        name: 'Cupcat',
+        uid: 'cupcat',
+        price: 50,
+        display: true,
+        image: 'images/items/cupcat.png',
+        items: '',
+        itemType: 'dessert'
+    },
+    {
+        name: 'UwU-Pop',
+        uid: 'uwupop',
+        price: 100,
+        display: true,
+        image: 'images/items/uwupop.png',
+        items: '',
+        itemType: 'drink'
+    },
+    {
+        name: 'Strawberry Milk',
+        uid: 'strawberrymilk',
+        price: 50,
+        display: true,
+        image: 'images/items/strawberrymilk.png',
+        items: '',
+        itemType: 'drink'
+    },
+    {
+        name: 'Boba Tea',
+        uid: 'bobatea',
+        price: 50,
+        display: true,
+        image: 'images/items/bobatea.png',
+        items: '',
+        itemType: 'drink'
+    },
+    {
+        name: 'Sakura Tea',
+        uid: 'sakuratea',
+        price: 50,
+        display: true,
+        image: 'images/items/sakura.png',
+        items: '',
+        itemType: 'drink'
+    },
+    {
+        name: '5x Pawcakes',
+        uid: '5pawcakes',
+        price: 500,
+        display: true,
+        image: 'images/items/pawcake.png',
+        items: '',
+        itemType: 'business Deal'
+    },
+    {
+        name: '10x Pawcakes',
+        uid: '10pawcakes',
+        price: 1000,
+        display: true,
+        image: 'images/items/pawcake.png',
+        items: '',
+        itemType: 'business Deal'
+    },
+    {
+        name: '20x Pawcakes',
+        uid: '20pawcakes',
+        price: 2000,
+        display: true,
+        image: 'images/items/pawcake.png',
+        items: '',
+        itemType: 'business Deal'
+    },
+    {
+        name: '50x Pawcakes',
+        uid: '50pawcakes',
+        price: 5000,
+        display: true,
+        image: 'images/items/pawcake.png',
+        items: '',
+        itemType: 'business Deal'
+    }
+];
+
+function loadItems() {
+    let itemList = document.getElementById('itemsContainer');
+    let lastItemType = "";
+    Menu.forEach(menuItem => {
+        if (menuItem.display == true) {
+            if (menuItem.itemType  !== lastItemType) {
+                itemList.innerHTML += `<div class="col-md-12 col-sm-12 col-12">${capitalizeFirstLetter(menuItem.itemType)}s</div>`;
+                lastItemType = menuItem.itemType;
+            }
+
+            itemList.innerHTML += 
+            `<div class="col-md-3 col-sm-3 col-3 text-center">
+                <figure class="card card-product" onclick="addItem('${menuItem.uid}','${menuItem.name}',${menuItem.price},'${menuItem.image}','${menuItem.items}')">
+                    <div class="img-wrap">
+                        <img draggable="false" src=${menuItem.image}>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <span class="title h6">${menuItem.name}</span>
+                        <div class="action-wrap">
+                            <span class="btn btn-primary disabled btn-sm"> <i
+                                    class="fa fa-cart-plus"></i>$${menuItem.price} </span>
+                        </div> <!-- action-wrap -->
+                    </figcaption>
+                </figure> <!-- card // -->
+            </div> <!-- col // -->`
+        }
+    });
+}
+
+function addItem(uid, name, price, image, items) {
+    var receiptItem = 'receipt-item-' + uid;
+    var priceItem = 'price-item-' + uid;
+    var quantityItem = 'quantity-item-' + uid;
+    if (document.getElementById(receiptItem)) {
+        let orderPriceString = document.getElementById(priceItem).innerText.replace(/\D/g, '');
+        let orderQuantityString = document.getElementById(quantityItem).innerText.replace(/\D/g, '');
+        let orderPrice = Number(orderPriceString);
+        let orderQuantity = Number(orderQuantityString);
+        orderPrice += 1 * price
+        orderQuantity += 1
+        document.getElementById(priceItem).innerText = '$' + orderPrice
+        document.getElementById(quantityItem).innerText = orderQuantity
+        totalPrice();
+    }
+    else {
+        let receiptList = document.getElementById('tbody');
+        let title = `<h6 class="title text-truncate menu-item">${name}</h6>`;
+        if (items !== '') {
+            title += `<h8 class="title text-truncate staff-help"><i>${items}</i></h8>`;
+        }
+        receiptList.innerHTML += 
+        `<tr class="receipt-item" id="receipt-item-${uid}">
+            <td>
+                <figure class="media">
+                    <div class="img-wrap"><img draggable="false" src="${image}"
+                        class="img-thumbnail img-xs"></div>
+                    <figcaption class="media-body">
+                        ${title}
+                    </figcaption>
+                </figure>
+            </td>
+            <td class="text-center">
+                <div class="m-btn-group m-btn-group--pill btn-group mr-2" role="group"
+                    aria-label="...">
+                    <button type="button" class="m-btn btn btn-default" onclick="removeItem('${uid}',${price},1)"><i
+                            class="fa fa-minus"></i></button>
+                    <button type="button" class="m-btn btn btn-default quantity" id="${quantityItem}" disabled>1</button>
+                    <button type="button" class="m-btn btn btn-default" onclick="addItem('${uid}','${name}',${price},'${image}')"><i
+                            class="fa fa-plus"></i></button>
+                </div>
+            </td>
+            <td>
+                <div class="price-wrap">
+                    <var class="price" id="${priceItem}">$${price}</var>
+                </div>
+            </td>
+            <td class="text-right">
+                <span class="btn btn-outline-danger" onclick="deleteItem('${uid}')"> <i class="fa fa-trash"></i></span>
+            </td>
+        </tr>`
+        totalPrice();
+    }
+}
+
+function removeItem(uid, price, quantity) {
+    if (document.getElementById('receipt-item-' + uid)) {
+        let orderPriceString = document.getElementById('price-item-' + uid).innerText.replace(/\D/g, '');
+        let orderQuantityString = document.getElementById('quantity-item-' + uid).innerText.replace(/\D/g, '');
+        let orderPrice = Number(orderPriceString);
+        let orderQuantity = Number(orderQuantityString);
+        if (orderQuantity > 1) {
+            orderPrice -= price
+            orderQuantity -= quantity
+            document.getElementById('price-item-' + uid).innerText = '$' + orderPrice
+            document.getElementById('quantity-item-' + uid).innerText = orderQuantity
+            totalPrice();
+        }
+    }  
+}
+function deleteItem(item) {
+    document.getElementById('receipt-item-' + item).remove();
+    totalPrice();
+}
+
+function resetTill(item) {
+    document.getElementById('tbody').innerHTML = '';
+    totalPrice();
+}
+
+function applyDiscount(discount) {
+    let discountPercent = (discount / 100);
+    let total = document.getElementById('totalCost').innerText.replace(/\D/g, '');
+    let discountedTotal = Math.ceil(total - (total * discountPercent));
+    document.getElementById('totalCost').innerText = '$' + discountedTotal;
+}
+
+function totalPrice() {
+    var elements = document.getElementsByClassName('price');
+    if (elements.length == 0) {
+        document.getElementById('totalCost').innerText = '$' + 0
+        generateComment();
+    }
+    else {
+        prices = [];
+        for (var i = 0; i < elements.length; ++i) {
+            var priceElement = elements[i].innerHTML.replace(/\D/g, '');
+            var price = Number(priceElement)
+            prices.push(price);
+            let total = prices.reduce(function (acc, val) { return acc + val; }, 0)
+            document.getElementById('totalCost').innerText = '$' + total
+            generateComment();
+        }
+    }
+}
+
+function generateComment() {
+    document.getElementById('orderComment').innerText = "";
+    document.getElementById('hiddenComment').value = "";
+    var itemComments = []
+    var itemQuantity = []
+    var quantity = document.getElementsByClassName("quantity");
+    for (var a = 0; a < quantity.length; a++) {
+        itemQuantity.push(quantity[a].innerText);
+    }
+    var receiptItems = document.getElementsByClassName("menu-item");
+    for (var i = 0; i < receiptItems.length; i++) {
+        itemComments.push(quantity[i].innerText + "x " + receiptItems[i].innerText);
+    }
+    document.getElementById('orderComment').innerHTML = `<button class="btn btn-primary btn-lg" id='copyToClipBoard' data-clipboard-target="#hiddenComment">
+        <span class="h5">Copy Order Comment</span>
+        </button> <br> 
+        <div style="color:white;">`+ 
+        itemComments.join(' ') + 
+        "</div>";
+    document.getElementById('hiddenComment').value = itemComments.join(' ');
+    let clipboard = new ClipboardJS('#copyToClipBoard');
+    clipboard.on('success', function(e) {
+        e.clearSelection();
+});
+
+}
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+loadItems();
