@@ -4,7 +4,7 @@ const Menu = [
         uid: 'crescent',
         price: 45,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd',
+        image: 'https://imgur.com/a/DW6ykgd.png',
         items: '1 Drink/1 Treat',
         itemType: 'combo'
     },
@@ -13,7 +13,7 @@ const Menu = [
         uid: 'fullMoon',
         price: 90,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd',
+        image: 'https://imgur.com/a/DW6ykgd.png',
         items: '2 Drinks/2 Treats',
         itemType: 'combo'
     },
@@ -22,7 +22,7 @@ const Menu = [
         uid: 'oldMoon',
         price: 180,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd',
+        image: 'https://imgur.com/a/DW6ykgd.png',
         items: '4 Drinks/4 Treats',
         itemType: 'combo'
     },    
@@ -31,7 +31,7 @@ const Menu = [
         uid: 'coven',
         price: 270,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd',
+        image: 'https://imgur.com/a/DW6ykgd.png',
         items: '1 of Everything',
         itemType: 'combo'
     },
@@ -40,7 +40,7 @@ const Menu = [
         uid: 'horde',
         price: 450,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd',
+        image: 'https://imgur.com/a/DW6ykgd.png',
         items: '10 Drinks/10 Treats',
         itemType: 'Combo'
     },
