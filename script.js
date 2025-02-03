@@ -4,7 +4,7 @@ const Menu = [
         uid: 'crescent',
         price: 45,
         display: true,
-        image: 'https://i.imgur.com/MHDpAKB.png',
+        image: 'imgur.com/MHDpAKB.png',
         items: '1 Drink/1 Treat',
         itemType: 'combo'
     },
