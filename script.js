@@ -4,7 +4,7 @@ const Menu = [
         uid: 'crescent',
         price: 45,
         display: true,
-        image: 'imgur.com/MHDpAKB.png',
+        image: 'https://i.imgur.com/MHDpAKB.png',
         items: '1 Drink/1 Treat',
         itemType: 'combo'
     },
@@ -13,7 +13,7 @@ const Menu = [
         uid: 'fullMoon',
         price: 90,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd.png',
+        image: 'https://i.imgur.com/MHDpAKB.png',
         items: '2 Drinks/2 Treats',
         itemType: 'combo'
     },
@@ -22,7 +22,7 @@ const Menu = [
         uid: 'oldMoon',
         price: 180,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd.png',
+        image: 'https://i.imgur.com/MHDpAKB.png',
         items: '4 Drinks/4 Treats',
         itemType: 'combo'
     },    
@@ -31,7 +31,7 @@ const Menu = [
         uid: 'coven',
         price: 270,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd.png',
+        image: 'https://i.imgur.com/MHDpAKB.png',
         items: '1 of Everything',
         itemType: 'combo'
     },
@@ -40,7 +40,7 @@ const Menu = [
         uid: 'horde',
         price: 450,
         display: true,
-        image: 'https://imgur.com/a/DW6ykgd.png',
+        image: 'https://i.imgur.com/MHDpAKB.png',
         items: '10 Drinks/10 Treats',
         itemType: 'Combo'
     },
@@ -49,7 +49,7 @@ const Menu = [
         uid: 'vanta',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/iIy98vH',
+        image: 'https://i.imgur.com/6Suuth2.png',
         items: '',
         itemType: 'Hot Coffee'
     },
@@ -58,7 +58,7 @@ const Menu = [
         uid: 'aurora',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/Hl3d7XW',
+        image: 'https://i.imgur.com/j8Ul4Se.png',
         items: '',
         itemType: 'Hot Coffee'
     },
@@ -67,7 +67,7 @@ const Menu = [
         uid: 'bloodmoon',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/yv0Imhg',
+        image: 'https://i.imgur.com/bMNWYXD.png',
         items: '',
         itemType: 'Hot Coffee'
     },
@@ -76,7 +76,7 @@ const Menu = [
         uid: 'nitrowitches',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/2fozCCg',
+        image: 'https://i.imgur.com/dp1hIxI.png',
         items: '',
         itemType: 'Iced Coffee'
     },
@@ -85,7 +85,7 @@ const Menu = [
         uid: 'lunarbrew',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/aGceTNZ',
+        image: 'https://i.imgur.com/poKADQX.png',
         items: '',
         itemType: 'Iced Coffee'
     },
@@ -94,7 +94,7 @@ const Menu = [
         uid: 'shadow works',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/oVFrX9B',
+        image: 'https://i.imgur.com/uNpyEAK.png',
         items: '',
         itemType: 'Iced Coffee'
     },    
@@ -103,7 +103,7 @@ const Menu = [
         uid: 'apparitions',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/8kqe7hv',
+        image: 'https://i.imgur.com/YCkIvkG.png',
         items: '',
         itemType: 'Tea'
     },
@@ -112,7 +112,7 @@ const Menu = [
         uid: 'dreams',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/9Nnmw7q',
+        image: 'https://i.imgur.com/7CgSScf.png',
         items: '',
         itemType: 'Tea'
     },
@@ -121,7 +121,7 @@ const Menu = [
         uid: 'yorkshire',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/fal7aur',
+        image: 'https://i.imgur.com/85A1N8b.png',
         items: '',
         itemType: 'Tea'
     },
@@ -130,7 +130,7 @@ const Menu = [
         uid: 'pride',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/ofezBMC',
+        image: 'https://i.imgur.com/Djx3xrN.png',
         items: '',
         itemType: 'Tea'
     },
@@ -139,7 +139,7 @@ const Menu = [
         uid: 'hex',
         price: 15,
         display: true,
-        image: 'https://imgur.com/a/bRFKhjY',
+        image: 'https://i.imgur.com/rbqTIEh.png',
         items: '',
         itemType: 'Tea'
     },
@@ -148,7 +148,7 @@ const Menu = [
         uid: 'BEC',
         price: 20,
         display: true,
-        image: 'https://imgur.com/a/K8uiS8c',
+        image: 'https://i.imgur.com/41wDh78.jpeg',
         items: '',
         itemType: 'Savory'
     },
@@ -157,7 +157,7 @@ const Menu = [
         uid: 'roll',
         price: 20,
         display: true,
-        image: 'https://imgur.com/a/jMcCN8l',
+        image: 'https://i.imgur.com/tESZ5ah.png',
         items: '',
         itemType: 'Savory'
     },
@@ -166,7 +166,7 @@ const Menu = [
         uid: 'brownie',
         price: 20,
         display: true,
-        image: 'https://imgur.com/a/8SCknIX',
+        image: 'https://i.imgur.com/xCfBMxf.png',
         items: '',
         itemType: 'Sweet'
     },
@@ -175,7 +175,7 @@ const Menu = [
         uid: 'charm',
         price: 20,
         display: true,
-        image: 'https://imgur.com/a/bc0TnJD',
+        image: 'https://i.imgur.com/QnN7VsQ.jpeg',
         items: '',
         itemType: 'Sweet'
     },
@@ -184,7 +184,7 @@ const Menu = [
         uid: 'starry',
         price: 20,
         display: true,
-        image: 'https://imgur.com/a/7eAz4YJ',
+        image: 'https://i.imgur.com/wmsUhD0.jpeg',
         items: '',
         itemType: 'Sweet'
     },
