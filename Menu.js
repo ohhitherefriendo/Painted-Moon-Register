@@ -1,226 +1,183 @@
 const Menu = [
     {
-        name: 'Lucky Bento',
-        uid: 'luckybento',
-        price: 500,
-        display: true,
-        items: 'Omurice, Onigiri, Meowcaroons, UwU-Pop',
-        itemType: 'combo'
-    },
-    {
-        name: '9 Lives',
-        uid: '9lives',
-        price: 300,
+        name: 'Crescent Moon Combo',
+        uid: 'crescent',
+        price: 45,
         display: true,
         image: 'images/items/9LivesCombo.png',
-        items: 'UwU Bowl, Dumplings, Flan, Strawberry Milk',
+        items: '',
         itemType: 'combo'
     },
     {
-        name: 'Cat Burglar',
-        uid: 'catburglar',
-        price: 300,
+        name: 'Full Moon Combo',
+        uid: 'fullMoon',
+        price: 90,
+        display: true,
+        image: 'images/items/9LivesCombo.png',
+        items: '',
+        itemType: 'combo'
+    },
+    {
+        name: 'Old Moon Combo',
+        uid: 'oldMoon',
+        price: 180,
         display: true,
         image: 'images/items/CatBurglarCombo.png',
-        items: 'Chicken Cat-Su, Miso Soup, Taiyaki, Boba Tea',
+        items: '',
         itemType: 'combo'
     },
     {
-        name: 'Pawcakes Meal',
-        uid: 'pawcakesmeal',
-        price: 150,
+        name: 'The Coven Combo',
+        uid: 'coven',
+        price: 270,
         display: true,
         image: 'images/items/pawcakesmeal.png',
-        items: 'Pawcakes, Sakura Tea, Cupcat',
+        items: '',
         itemType: 'combo'
     },
     {
-        name: 'Kitty Meal',
-        uid: 'kittymeal',
-        price: 75,
+        name: 'For The Horde Combo',
+        uid: 'horde',
+        price: 450,
         display: true,
         image: 'images/items/kittymeal.png',
-        items: 'Cupcat, Boba Tea',
+        items: '',
         itemType: 'combo'
     },
     {
-        name: 'Pawliday Meal',
-        uid: 'pawlidaymeal',
-        price: 500,
+        name: 'Vanta Black',
+        uid: 'vanta',
+        price: 15,
         display: true,
         image: 'images/items/promo/pawlidaymeal.png',
-        items: 'Holiday Pawffles, Meowced Pie, Santas Cookies, Hot Choco-Cat',
-        itemType: 'combo'
+        items: '',
+        itemType: 'drink'
     },
     {
-        name: 'Omurice',
-        uid: 'omurice',
-        price: 300,
+        name: 'Aurora Lights',
+        uid: 'aurora',
+        price: 15,
         display: true,
         image: 'images/items/omurice.png',
         items: '',
-        itemType: 'main'
+        itemType: 'drink'
     },
     {
-        name: 'UwU Bowl',
-        uid: 'uwubowl',
-        price: 200,
+        name: 'Blood Moon Blend',
+        uid: 'bloodmoon',
+        price: 15,
         display: true,
         image: 'images/items/uwubowl.png',
         items: '',
-        itemType: 'main'
+        itemType: 'drink'
     },
     {
-        name: 'Chicken Cat-Su',
-        uid: 'chickencatsu',
-        price: 200,
+        name: 'Nitro Witches Brew',
+        uid: 'nitrowitches',
+        price: 15,
         display: true,
         image: 'images/items/chickencatsu.png',
         items: '',
-        itemType: 'main'
+        itemType: 'drink'
     },
     {
-        name: 'Pawcakes',
-        uid: 'pawcakes',
-        price: 100,
+        name: 'Iced Lunar Brew',
+        uid: 'lunarbrew',
+        price: 15,
         display: true,
         image: 'images/items/pawcake.png',
         items: '',
-        itemType: 'main'
+        itemType: 'drink'
     },
     {
-        name: 'Onigiri',
-        uid: 'onigiri',
-        price: 100,
+        name: 'Iced Shadow Works',
+        uid: 'shadow works',
+        price: 15,
         display: true,
         image: 'images/items/onigiri.png',
         items: '',
-        itemType: 'side'
+        itemType: 'drink'
     },
     {
-        name: 'Dumplings',
-        uid: 'dumplings',
-        price: 50,
+        name: 'Apparitions',
+        uid: 'apparitions',
+        price: 15,
         display: true,
         image: 'images/items/dumplings.png',
         items: '',
-        itemType: 'side'
+        itemType: 'drink'
     },
     {
-        name: 'Miso Soup',
-        uid: 'misosoup',
-        price: 50,
+        name: 'Yorkshire Cauldron Brew',
+        uid: 'yorkshire',
+        price: 15,
         display: true,
         image: 'images/items/misosoup.png',
         items: '',
-        itemType: 'side'
+        itemType: 'drink'
     },
     {
-        name: 'Meow-caroons',
-        uid: 'mewocaroons',
-        price: 100,
+        name: 'Witches Pride',
+        uid: 'pride',
+        price: 15,
         display: true,
         image: 'images/items/meowcaroons.png',
         items: '',
-        itemType: 'dessert'
+        itemType: 'drink'
     },
     {
-        name: 'Flan',
-        uid: 'flan',
-        price: 50,
+        name: 'Iced Hibiscus Hex',
+        uid: 'hex',
+        price: 15,
         display: true,
         image: 'images/items/flan.png',
         items: '',
-        itemType: 'dessert'
+        itemType: 'drink'
     },
     {
-        name: 'Taiyaki',
-        uid: 'taiyaki',
-        price: 50,
+        name: 'Bacon Egg & Cheese Croissant',
+        uid: 'BEC',
+        price: 20,
         display: true,
         image: 'images/items/taiyaki.png',
         items: '',
-        itemType: 'dessert'
+        itemType: 'main'
     },
     {
-        name: 'Cupcat',
-        uid: 'cupcat',
-        price: 50,
+        name: 'Sausage Roll',
+        uid: 'roll',
+        price: 20,
         display: true,
         image: 'images/items/cupcat.png',
         items: '',
-        itemType: 'dessert'
+        itemType: 'main'
     },
     {
-        name: 'UwU-Pop',
-        uid: 'uwupop',
-        price: 100,
+        name: 'Midnight Run Cheesecake Brownie',
+        uid: 'brownie',
+        price: 20,
         display: true,
         image: 'images/items/uwupop.png',
         items: '',
         itemType: 'drink'
     },
     {
-        name: 'Strawberry Milk',
-        uid: 'strawberrymilk',
-        price: 50,
+        name: 'Cinnamon Charm',
+        uid: 'charm',
+        price: 20,
         display: true,
         image: 'images/items/strawberrymilk.png',
         items: '',
         itemType: 'drink'
     },
     {
-        name: 'Boba Tea',
-        uid: 'bobatea',
-        price: 50,
+        name: 'Starry Night Cookies',
+        uid: 'starry',
+        price: 20,
         display: true,
         image: 'images/items/bobatea.png',
         items: '',
         itemType: 'drink'
     },
-    {
-        name: 'Sakura Tea',
-        uid: 'sakuratea',
-        price: 50,
-        display: true,
-        image: 'images/items/sakura.png',
-        items: '',
-        itemType: 'drink'
-    },
-    {
-        name: '5x Pawcakes',
-        uid: '5pawcakes',
-        price: 500,
-        display: true,
-        image: 'images/items/pawcake.png',
-        items: '',
-        itemType: 'business Deal'
-    },
-    {
-        name: '10x Pawcakes',
-        uid: '10pawcakes',
-        price: 1000,
-        display: true,
-        image: 'images/items/pawcake.png',
-        items: '',
-        itemType: 'business Deal'
-    },
-    {
-        name: '20x Pawcakes',
-        uid: '20pawcakes',
-        price: 2000,
-        display: true,
-        image: 'images/items/pawcake.png',
-        items: '',
-        itemType: 'business Deal'
-    },
-    {
-        name: '50x Pawcakes',
-        uid: '50pawcakes',
-        price: 5000,
-        display: true,
-        image: 'images/items/pawcake.png',
-        items: '',
-        itemType: 'business Deal'
     }
 ];
