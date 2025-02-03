@@ -1,202 +1,194 @@
 const Menu = [
     {
-        name: 'Crescent Combo',
-        uid: 'crescentmoon',
-        price: 30,
+         name: 'Crescent Moon Combo',
+        uid: 'crescent',
+        price: 45,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1225242592925585498/image.png?ex=6629a596&is=66173096&hm=6b815f0420fa35b62be8388856c937dc04ba9dd12eb37ecfa2235644a8cac523&',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '1 Drink/1 Treat',
         itemType: 'combo'
     },
     {
-        name: 'Full Moon Combo',
-        uid: 'FullMoon',
-        price: 60,
+         name: 'Full Moon Combo',
+        uid: 'fullMoon',
+        price: 90,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1225242592925585498/image.png?ex=6629a596&is=66173096&hm=6b815f0420fa35b62be8388856c937dc04ba9dd12eb37ecfa2235644a8cac523&',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '2 Drinks/2 Treats',
         itemType: 'combo'
     },
     {
         name: 'Old Moon Combo',
-        uid: 'OldMoon',
-        price: 90,
+        uid: 'oldMoon',
+        price: 180,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1225242592925585498/image.png?ex=6629a596&is=66173096&hm=6b815f0420fa35b62be8388856c937dc04ba9dd12eb37ecfa2235644a8cac523&',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '4 Drinks/4 Treats',
         itemType: 'combo'
     },    
     {
-        name: 'Lunar Eclipse',
-        uid: 'Eclipse',
-        price: 110,
+         name: 'The Coven Combo',
+        uid: 'coven',
+        price: 270,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1225242592925585498/image.png?ex=6629a596&is=66173096&hm=6b815f0420fa35b62be8388856c937dc04ba9dd12eb37ecfa2235644a8cac523&',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '1 of Everything',
         itemType: 'combo'
     },
     {
-        name: 'Sausage Roll',
-        uid: 'Roll',
-        price: 20,
+         name: 'For The Horde Combo',
+        uid: 'horde',
+        price: 450,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1207564227745808454/IMG_0945.png?ex=6629eed3&is=661779d3&hm=b7da3d95016052a6e64d0f2d0b7a37132a319522ac88ab70bf9c2f7038cdece3&',
-        items: '',
-        itemType: 'Savory'
+        image: 'https://imgur.com/a/DW6ykgd',
+        items: '10 Drinks/10 Treats',
+        itemType: 'Combo'
     },
     {
-        name: 'Ham & Cheese Croissant',
-        uid: 'Ham&Cheese',
-        price: 20,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1207564229163618354/IMG_0943.png?ex=6629eed3&is=661779d3&hm=4bdc96dce815871eda82da86f4151d9777eba66aa7154041a49867020cb20acd&',
-        items: '',
-        itemType: 'Savory'
-    },
-    {
-        name: 'BEC Croissant',
-        uid: 'BEC',
-        price: 20,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1207564229163618354/IMG_0943.png?ex=6629eed3&is=661779d3&hm=4bdc96dce815871eda82da86f4151d9777eba66aa7154041a49867020cb20acd&',
-        items: '',
-        itemType: 'Savory'
-    },
-    {
-    name: 'Moonlit Smoothie Bowl',
-        uid: 'Moonlit',
-        price: 20,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/1225244727486578768/1227228147385106432/IMG_1079.png?ex=6627a447&is=66152f47&hm=57ba76e6f9758493ee35a7dc32b8bd6b6b9f731363d6b4f1a0a579a4974332fa&',
-        items: '',
-        itemType: 'Sweet'
-    },
-    {
-        name: 'Twin Lunar Cakepops',
-        uid: 'TwinLunar',
-        price: 20,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1216909492495585343/IMG_1044.png?ex=66270448&is=66148f48&hm=8e3f2f088ba646940d68e69eb874cd1658560dc5380ab12a78b8f55af885d51e&',
-        items: '',
-        itemType: 'Sweet'
-    },
-    {
-        name: 'Cheesecake Brownie',
-        uid: 'Brownie',
-        price: 20,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1219857745046409357/IMG_1068.png?ex=6628838e&is=66160e8e&hm=e0754803a67e07886d0eaa167893d9e9b66a8529b9c455897c7398751ab615dd&',
-        items: '',
-        itemType: 'Sweet'
-    },
-    {
-        name: 'Purrfect Cinnamon Roll',
-        uid: 'Cinnamon',
-        price: 20,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1211598325569290270/IMG_0978.png?ex=662626df&is=6613b1df&hm=2f2648de4dd065ce77f63a5dcdbe891b5f4d710654b53559f6031023e7198525&',
-        items: '',
-        itemType: 'Sweet'
-    },    
-    {
-        name: 'Premonitions',
-        uid: 'premo',
+       name: 'Vanta Black',
+        uid: 'vanta',
         price: 15,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1227897153796702228/Premonitions.png?ex=662a1356&is=66179e56&hm=940dd8a182f745ee683eb17bbf2783cefacc2d3f239e484c217fde4e723838d8&',
-        items: '',
-        itemType: 'Iced Coffee'
-    },
-    {
-        name: 'Nitro Bitches Brew',
-        uid: 'NBB',
-        price: 15,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1222159758967050260/IMG_1070.png?ex=6627a8f9&is=661533f9&hm=c14d334c1ddcdc258bc475ee4806793bb5a0670ad5b1c94bbeb234ded84a3777&',
-        items: '',
-        itemType: 'Iced Coffee'
-    },
-    {
-        name: 'Shadow Work',
-        uid: 'Shadow',
-        price: 15,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/1225244727486578768/1227229739954077709/IMG_1080.png?ex=6627a5c2&is=661530c2&hm=8a699f94794481a729029ad18b070141f2b3559cd1587e0d709947eb9c04f0ac&',
-        items: '',
-        itemType: 'Iced Coffee'
-    },
-    {
-        name: 'Bitches Brew',
-        uid: 'Bitches',
-        price: 15,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/1206625740221841478/1213653502405115955/brew.png?ex=66246667&is=6611f167&hm=967de1a47192d5b73ea53beb970938d5bd336ede79d6a091e13b15e44d4d7afb&',
-        items: '',
-        itemType: 'Hot Coffee'
-    },
-    {
-        name: 'Vanta Black',
-        uid: 'Vanta',
-        price: 15,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/1206625740221841478/1213653583405391872/Vanta_Black.png?ex=6624667a&is=6611f17a&hm=3d64694e6bf1a3755f0f8bf8b963b5bd8b17213353f145a0555c1e93ec5ed051&',
-        items: '',
-        itemType: 'Hot Coffee'
-    },
-    {
-        name: 'Blood Moon Blend',
-        uid: 'BloodMoon',
-        price: 15,
-        display: true,
-        image: 'https://cdn.discordapp.com/attachments/1206625740221841478/1213653501448691782/blood_moon_blend.png?ex=66246667&is=6611f167&hm=fea0429f0f5047418ac1086463c43a60a6395edd445a8394ec392790a712fd2d&',
+        image: 'https://imgur.com/a/iIy98vH',
         items: '',
         itemType: 'Hot Coffee'
     },
     {
         name: 'Aurora Lights',
-        uid: 'Aurora',
+        uid: 'aurora',
         price: 15,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/1206625740221841478/1213653500580335679/Aurora_Lights.png?ex=66246667&is=6611f167&hm=db1776f29f1145ec73b798e349eacefb067ddcd07196f18f0db2091531609205&',
+        image: 'https://imgur.com/a/Hl3d7XW',
         items: '',
         itemType: 'Hot Coffee'
     },
     {
-        name: 'The Floyd',
-        uid: 'Floyd',
+    name: 'Blood Moon Blend',
+        uid: 'bloodmoon',
         price: 15,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/1206625740221841478/1213653581862014976/The_Floyd.png?ex=6624667a&is=6611f17a&hm=a57bb2ecacf268e1ed3fcb38a7d005703af0fa8fcdcc412e3c5591cbe8b882d1&',
+        image: 'https://imgur.com/a/yv0Imhg',
         items: '',
         itemType: 'Hot Coffee'
+    },
+    {
+        name: 'Nitro Witches Brew',
+        uid: 'nitrowitches',
+        price: 15,
+        display: true,
+        image: 'https://imgur.com/a/2fozCCg',
+        items: '',
+        itemType: 'Iced Coffee'
+    },
+    {
+        name: 'Iced Lunar Brew',
+        uid: 'lunarbrew',
+        price: 15,
+        display: true,
+        image: 'https://imgur.com/a/aGceTNZ',
+        items: '',
+        itemType: 'Iced Coffee'
+    },
+    {
+        name: 'Iced Shadow Works',
+        uid: 'shadow works',
+        price: 15,
+        display: true,
+        image: 'https://imgur.com/a/oVFrX9B',
+        items: '',
+        itemType: 'Iced Coffee'
+    },    
+    {
+        name: 'Apparitions',
+        uid: 'apparitions',
+        price: 15,
+        display: true,
+        image: 'https://imgur.com/a/8kqe7hv',
+        items: '',
+        itemType: 'Tea'
     },
     {
         name: 'Midnight Dreams',
-        uid: 'Dreams',
+        uid: 'dreams',
         price: 15,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/1206625740221841478/1213655077613735986/Midnight_Dreams.png?ex=662467df&is=6611f2df&hm=6c8d1ec1456d8a22c6c994d60dc1f4e4531c453ff8f2026eb56f64af5f8fdb4a&',
+        image: 'https://imgur.com/a/9Nnmw7q',
         items: '',
         itemType: 'Tea'
     },
     {
-        name: 'Spellbound',
-        uid: 'Spell',
+        name: 'Yorkshire Cauldron Brew',
+        uid: 'yorkshire',
         price: 15,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/1206625740221841478/1213653499863375912/SpellBound.png?ex=66246666&is=6611f166&hm=c2fccb3dbcb2a9c520436ff39d48c6f872d4aa4e4dc206b208416079a7c3507a&',
+        image: 'https://imgur.com/a/fal7aur',
         items: '',
         itemType: 'Tea'
     },
     {
-        name: 'Incantation',
-        uid: 'Incan',
+        name: 'Witches Pride',
+        uid: 'pride',
         price: 15,
         display: true,
-        image: 'https://cdn.discordapp.com/attachments/990535131049635840/1215206451816046643/IMG_1030.png?ex=6620d233&is=660e5d33&hm=27645c68d8e7d5693a25fc7543cd270fca609f9959f224073fd267ae5da00893&',
+        image: 'https://imgur.com/a/ofezBMC',
         items: '',
         itemType: 'Tea'
     },
+    {
+        name: 'Iced Hibiscus Hex',
+        uid: 'hex',
+        price: 15,
+        display: true,
+        image: 'https://imgur.com/a/bRFKhjY',
+        items: '',
+        itemType: 'Tea'
+    },
+    {
+        name: 'Bacon Egg & Cheese Croissant',
+        uid: 'BEC',
+        price: 20,
+        display: true,
+        image: 'https://imgur.com/a/K8uiS8c',
+        items: '',
+        itemType: 'Savory'
+    },
+    {
+        name: 'Sausage Roll',
+        uid: 'roll',
+        price: 20,
+        display: true,
+        image: 'https://imgur.com/a/jMcCN8l',
+        items: '',
+        itemType: 'Savory'
+    },
+    {
+        name: 'Midnight Run Cheesecake Brownie',
+        uid: 'brownie',
+        price: 20,
+        display: true,
+        image: 'https://imgur.com/a/8SCknIX',
+        items: '',
+        itemType: 'Sweet'
+    },
+    {
+        name: 'Cinnamon Charm',
+        uid: 'charm',
+        price: 20,
+        display: true,
+        image: 'https://imgur.com/a/bc0TnJD',
+        items: '',
+        itemType: 'Sweet'
+    },
+    {
+        name: 'Starry Night Cookies',
+        uid: 'starry',
+        price: 20,
+        display: true,
+        image: 'https://imgur.com/a/7eAz4YJ',
+        items: '',
+        itemType: 'Sweet'
+    },
+
 ];
 
 function loadItems() {
