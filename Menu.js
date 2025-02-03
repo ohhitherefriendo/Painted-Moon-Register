@@ -4,7 +4,7 @@ const Menu = [
         uid: 'crescent',
         price: 45,
         display: true,
-        image: 'images/items/9LivesCombo.png',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '',
         itemType: 'combo'
     },
@@ -13,7 +13,7 @@ const Menu = [
         uid: 'fullMoon',
         price: 90,
         display: true,
-        image: 'images/items/9LivesCombo.png',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '',
         itemType: 'combo'
     },
@@ -22,7 +22,7 @@ const Menu = [
         uid: 'oldMoon',
         price: 180,
         display: true,
-        image: 'images/items/CatBurglarCombo.png',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '',
         itemType: 'combo'
     },
@@ -31,7 +31,7 @@ const Menu = [
         uid: 'coven',
         price: 270,
         display: true,
-        image: 'images/items/pawcakesmeal.png',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '',
         itemType: 'combo'
     },
@@ -40,7 +40,7 @@ const Menu = [
         uid: 'horde',
         price: 450,
         display: true,
-        image: 'images/items/kittymeal.png',
+        image: 'https://imgur.com/a/DW6ykgd',
         items: '',
         itemType: 'combo'
     },
@@ -49,7 +49,7 @@ const Menu = [
         uid: 'vanta',
         price: 15,
         display: true,
-        image: 'images/items/promo/pawlidaymeal.png',
+        image: 'https://imgur.com/a/iIy98vH',
         items: '',
         itemType: 'drink'
     },
@@ -58,7 +58,7 @@ const Menu = [
         uid: 'aurora',
         price: 15,
         display: true,
-        image: 'images/items/omurice.png',
+        image: 'https://imgur.com/a/Hl3d7XW',
         items: '',
         itemType: 'drink'
     },
@@ -67,7 +67,7 @@ const Menu = [
         uid: 'bloodmoon',
         price: 15,
         display: true,
-        image: 'images/items/uwubowl.png',
+        image: 'https://imgur.com/a/yv0Imhg',
         items: '',
         itemType: 'drink'
     },
@@ -76,7 +76,7 @@ const Menu = [
         uid: 'nitrowitches',
         price: 15,
         display: true,
-        image: 'images/items/chickencatsu.png',
+        image: 'https://imgur.com/a/2fozCCg',
         items: '',
         itemType: 'drink'
     },
@@ -85,7 +85,7 @@ const Menu = [
         uid: 'lunarbrew',
         price: 15,
         display: true,
-        image: 'images/items/pawcake.png',
+        image: 'https://imgur.com/a/aGceTNZ',
         items: '',
         itemType: 'drink'
     },
@@ -94,7 +94,7 @@ const Menu = [
         uid: 'shadow works',
         price: 15,
         display: true,
-        image: 'images/items/onigiri.png',
+        image: 'https://imgur.com/a/oVFrX9B',
         items: '',
         itemType: 'drink'
     },
@@ -103,7 +103,16 @@ const Menu = [
         uid: 'apparitions',
         price: 15,
         display: true,
-        image: 'images/items/dumplings.png',
+        image: 'https://imgur.com/a/8kqe7hv',
+        items: '',
+        itemType: 'drink'
+    },
+    {
+        name: 'Midnight Dreams',
+        uid: 'dreams',
+        price: 15,
+        display: true,
+        image: 'https://imgur.com/a/9Nnmw7q',
         items: '',
         itemType: 'drink'
     },
@@ -112,7 +121,7 @@ const Menu = [
         uid: 'yorkshire',
         price: 15,
         display: true,
-        image: 'images/items/misosoup.png',
+        image: 'https://imgur.com/a/fal7aur',
         items: '',
         itemType: 'drink'
     },
@@ -121,7 +130,7 @@ const Menu = [
         uid: 'pride',
         price: 15,
         display: true,
-        image: 'images/items/meowcaroons.png',
+        image: 'https://imgur.com/a/ofezBMC',
         items: '',
         itemType: 'drink'
     },
@@ -130,7 +139,7 @@ const Menu = [
         uid: 'hex',
         price: 15,
         display: true,
-        image: 'images/items/flan.png',
+        image: 'https://imgur.com/a/bRFKhjY',
         items: '',
         itemType: 'drink'
     },
@@ -139,7 +148,7 @@ const Menu = [
         uid: 'BEC',
         price: 20,
         display: true,
-        image: 'images/items/taiyaki.png',
+        image: 'https://imgur.com/a/K8uiS8c',
         items: '',
         itemType: 'main'
     },
@@ -148,7 +157,7 @@ const Menu = [
         uid: 'roll',
         price: 20,
         display: true,
-        image: 'images/items/cupcat.png',
+        image: 'https://imgur.com/a/jMcCN8l',
         items: '',
         itemType: 'main'
     },
@@ -157,27 +166,27 @@ const Menu = [
         uid: 'brownie',
         price: 20,
         display: true,
-        image: 'images/items/uwupop.png',
+        image: 'https://imgur.com/a/8SCknIX',
         items: '',
-        itemType: 'drink'
+        itemType: 'dessert'
     },
     {
         name: 'Cinnamon Charm',
         uid: 'charm',
         price: 20,
         display: true,
-        image: 'images/items/strawberrymilk.png',
+        image: 'https://imgur.com/a/bc0TnJD',
         items: '',
-        itemType: 'drink'
+        itemType: 'dessert'
     },
     {
         name: 'Starry Night Cookies',
         uid: 'starry',
         price: 20,
         display: true,
-        image: 'images/items/bobatea.png',
+        image: 'https://imgur.com/a/7eAz4YJ',
         items: '',
-        itemType: 'drink'
+        itemType: 'dessert'
     },
     }
 ];
