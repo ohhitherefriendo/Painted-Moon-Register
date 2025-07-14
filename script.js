@@ -2,7 +2,7 @@ const Menu = [
     {
          name: 'Crescent Moon Combo',
         uid: 'crescent',
-        price: 45,
+        price: 65,
         display: true,
         image: 'https://i.imgur.com/MHDpAKB.png',
         items: '1 Drink/1 Treat',
@@ -11,7 +11,7 @@ const Menu = [
     {
          name: 'Full Moon Combo',
         uid: 'fullMoon',
-        price: 90,
+        price: 110,
         display: true,
         image: 'https://i.imgur.com/MHDpAKB.png',
         items: '2 Drinks/2 Treats',
@@ -20,7 +20,7 @@ const Menu = [
     {
         name: 'Old Moon Combo',
         uid: 'oldMoon',
-        price: 180,
+        price: 200,
         display: true,
         image: 'https://i.imgur.com/MHDpAKB.png',
         items: '4 Drinks/4 Treats',
@@ -29,7 +29,7 @@ const Menu = [
     {
          name: 'The Coven Combo',
         uid: 'coven',
-        price: 270,
+        price: 300,
         display: true,
         image: 'https://i.imgur.com/MHDpAKB.png',
         items: '1 of Everything',
@@ -38,7 +38,7 @@ const Menu = [
     {
          name: 'For The Horde Combo',
         uid: 'horde',
-        price: 450,
+        price: 500,
         display: true,
         image: 'https://i.imgur.com/MHDpAKB.png',
         items: '10 Drinks/10 Treats',
